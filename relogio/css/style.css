@@ -1,0 +1,68 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* cor 1 : 
+
+*/
+:root{
+    --cor1: linear-gradient(to bottom, rgb(230, 246, 8), rgba(195, 128, 4, 0.761));
+    --cor2: linear-gradient(to bottom, rgb(87, 246, 8), rgba(4, 195, 176, 0.761));
+    --cor3: linear-gradient(to bottom, rgb(246, 91, 8), rgba(216, 231, 12, 0.662));
+    --cor4:linear-gradient(to bottom, rgb(247, 10, 10), rgba(84, 9, 2, 0.761));
+}
+body{
+    background:var(--cor2);
+    font-family: 'Titillium Web', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+header{  
+    font-size: 30px;
+    color: azure;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+main{
+    height: 200px;
+    width: 600px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 20, 0, 0.59);
+    
+    
+}
+
+div{
+    margin-top: 10px;
+    height: 160px;
+    width: 150px;
+    background:black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.536);
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    letter-spacing: 5px;
+    
+}
+.tt{
+    font-size: 40px;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
